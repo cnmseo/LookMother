@@ -1,1 +1,1 @@
-window.location.href = "https://xxx.com/";
+window.location.href = "https://ems.ac/";
