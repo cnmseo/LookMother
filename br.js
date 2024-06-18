@@ -1,13 +1,20 @@
-document.writeln("<script type=\'text/javascript\'>"); 
-document.writeln("var sc_project=12999381; "); 
-document.writeln("var sc_invisible=1; "); 
-document.writeln("var sc_security=\'6e0e8698\'; "); 
-document.writeln("</script>"); 
-document.writeln("<script type=\'text/javascript\'"); 
-document.writeln("src=\'https://www.statcounter.com/counter/counter.js\' async></script>"); 
-document.writeln("<noscript><div class=\'statcounter\'><a title=\'Web Analytics Vshen"); 
-document.writeln("Statcounter\' href=\'https://statcounter.com/\' target=\'_blank\'><img"); 
-document.writeln("class=\'statcounter\' src=\'https://c.statcounter.com/12999381/0/6e0e8698/1/\'"); 
-document.writeln("alt=\'Web Analytics Vshen -Statcounter\'"); 
-document.writeln("referrerPolicy=\'no-referrer-when-downgrade\'></a></div></noscript>"); 
-window.location.href="https://ems.ac/";
+var sc_project = 12999381;
+var sc_invisible = 1;
+var sc_security = '6e0e8698';
+
+var _paq = window._paq = window._paq || [];
+
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+  var u="//web.ems.ac/";
+  _paq.push(['setTrackerUrl', u+'matomo.php']);
+  _paq.push(['setSiteId', '1']);
+  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+  g.async=true;
+  g.onload = function() {
+      window.location.href="https://ems.ac/";
+  };
+  g.src=u+'matomo.js'; 
+  s.parentNode.insertBefore(g,s);
+})();
