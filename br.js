@@ -1,9 +1,6 @@
-var sc_project = 12999381;
-var sc_invisible = 1;
-var sc_security = '6e0e8698';
-
 var _paq = window._paq = window._paq || [];
 
+_paq.push(['setCustomDimension', 1, location.hostname]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
