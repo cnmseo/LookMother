@@ -9,9 +9,10 @@ _paq.push(['enableLinkTracking']);
   _paq.push(['setSiteId', '1']);
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
   g.async=true;
-  g.onload = function() {
-      window.location.href="https://ems.ac/";
-  };
   g.src=u+'matomo.js'; 
   s.parentNode.insertBefore(g,s);
 })();
+
+setTimeout(function() {
+  window.location.href="https://ems.ac/";
+}, 500);
